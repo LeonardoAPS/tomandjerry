@@ -1,0 +1,44 @@
+<!-- Reference: https://prezi.github.io/prezi-player/lib/PreziPlayer/ -->
+<script src="js/prezi_player.js"></script>
+<div id="prezi-player"></div>
+<script type="application/javascript">
+
+    //***************** Start DEBUG 
+    console.log(">>> Starting loading prezi.html file...");
+    //***************** End DEBUG 
+
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    //initialize the player
+    var player = new PreziPlayer('prezi-player', {
+        preziId: urlParams.get("id")
+    });
+
+    // create an xmlhttp object
+    var request2 = new XMLHttpRequest();
+
+    // means GET stuff in there
+    request2.open("GET", "/listener?id="+urlParams.get("id"));
+
+    //creates a callback function
+    callback2 = function() {
+
+       // checks if we are ready to read response
+       if(this.readyState === 4 && this.status === 200) {
+            
+            // advance the player for the next slide
+            player.flyToNextStep();
+
+            //keep the listener open, to allow advance again
+            request2.open("GET", "/listener?id="+urlParams.get("id"));
+            request2.send();
+        }
+    }
+
+    // wait for the response
+    request2.addEventListener("readystatechange", callback2);   
+
+    //send request
+    request2.send();
+</script>

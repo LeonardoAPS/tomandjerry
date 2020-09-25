@@ -1,0 +1,46 @@
+{
+  "name": "Tom and Jerry Extension",
+  "version": "1.0",
+  "description": "Build your magic demo!",
+  "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "https://*/*",
+      "http://*/*"      
+    ],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+  },
+  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },  
+  "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/logo_16.png",
+        "32": "images/logo_32.png",
+        "48": "images/logo_48.png",
+        "128": "images/logo_128.png"
+      }
+  },
+  "icons": {
+	  "16": "images/logo_16.png",
+	  "32": "images/logo_32.png",
+	  "48": "images/logo_48.png",
+	  "128": "images/logo_128.png"
+  },
+ "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "run_at": "document_idle",
+     "js": ["content.js"]
+   }
+ ],
+  "manifest_version": 2
+}

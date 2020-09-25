@@ -1,0 +1,39 @@
+<script>
+    console.log('starting...');
+
+    var oReq = new XMLHttpRequest();
+
+    oReq.addEventListener("progress", updateProgress);
+    //oReq.addEventListener("load", transferComplete);
+    //oReq.addEventListener("error", transferFailed);
+    //oReq.addEventListener("abort", transferCanceled);
+
+    //request.open("GET", "/myNewJs"); // means GET stuff in there
+    oReq.open("GET", "/myJsRoutines");
+    oReq.send();
+
+    // ...
+
+    // progress on transfers from the server to the client (downloads)
+    function updateProgress (oEvent) {
+        
+        console.log(oEvent);
+
+      if (oEvent.lengthComputable) {
+        var percentComplete = oEvent.loaded / oEvent.total * 100;
+        console.log(percentComplete);
+        // ...
+      } else {
+        // Unable to compute progress information since the total size is unknown
+      }
+    }
+
+    oReq.addEventListener("loadend", loadEnd);
+
+    function loadEnd(e) {
+        console.log(e);
+      console.log("The transfer finished (although we don't know if it succeeded or not).");
+    }
+
+    console.log('finishing...');    
+</script>

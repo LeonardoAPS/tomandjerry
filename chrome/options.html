@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>Tom & Jerry Extension Options</title></head>
+<body>
+Tom Server: <input type="text" id="server" size="50%">
+<div id="status"></div></br>
+<div id="element"></div>
+<button id="save">Save</button>
+<button id="show">Show Elements</button>
+<button id="clear">Clear Elements</button>
+<button id="clearall">Clear All</button>
+<script src="options.js"></script>
+<h3>Instructions</h3>
+<ul>
+	<li>1. Start the Node application (npm start or nodemon)</li>
+	<li>2. Open your application and make sure Tom and Jerry Chrome extension is enabled</li>
+	<li>3. Click on the extension button and enable the Edit mode</li>
+	<li>4. From now on, every click on your browser will be captured by the Tom and Jerry. If you want to have detailed info, enable the Console view of your Chrome</li>
+	<li>5. Once you're done, disable the Edit mode</li>
+	<li>6. Go to the options of the T&J extension and make sure you have configured the server URL</li>
+	<ul>
+		<li>6a. Configure the Server URL as '[serverURL]/trigger/id=[ID]] - see below for the IDs</li>
+		<li>6b. For Google Slides</li>
+		<li>Go to your GSlides presentation and click on File>Publish to web>Select Embed>Clibk on Publush</li>			
+		<li>A code will be displayed, you have to collect the ID, which start with '2PACX-...'</li>	
+		<li>Open another browser window with the URL '[serverURL]/gslides?id=[id]'</li>	
+		<li>6c. For Prezi</li>
+		<li>Go to Prezi and get the ID of the presentation identified in the URL</li>			
+		<li>Open another browser window with the URL '[serverURL]/prezi?id=[id]'</li>			
+	</ul>
+	<li>7. Starting doing your demo and the magic will hapen. Try to use a side-by-side view, on the left your presentation and on the right your demo application</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<script type="application/javascript" data-main="module" src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+<script>
+var myscript = require(['module'], null);
+console.log(myscript.createDate() instanceof Date); // true
+//myscript.showAlert(); // I'm running in Node module!
+</script>

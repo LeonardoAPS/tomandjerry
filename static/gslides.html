@@ -1,0 +1,48 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <iframe id="gdrive"></iframe>
+    <script>
+        //***************** Start DEBUG 
+        console.log(">>> Starting loading glides.html file...");
+        //***************** End DEBUG 
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);    
+
+        //get the  player
+        var player = document.getElementById("gdrive");
+        player.src = 'https://docs.google.com/presentation/d/e/'+urlParams.get("id")+'/embed#slide=0';
+
+        // create an xmlhttp object
+        var request = new XMLHttpRequest(); 
+
+        // means GET stuff in there
+        request.open("GET", "/listener?id="+urlParams.get("id"));
+
+        //creates a callback function
+        callback = function()
+        {
+           // checks if we are ready to read response
+           if(this.readyState === 4 && this.status === 200) 
+           {
+                player.src = 'https://docs.google.com/presentation/d/e/'+urlParams.get("id")+'/embed#slide=' + (++counter);          
+                //keep the listener open, to allow advance again
+                request.open("GET", "/listener?id="+urlParams.get("id"));
+                request.send();
+            }
+        }
+
+        //initiatethe counter to move slides ahead
+        var counter = 1;
+
+        // wait for the response
+        request.addEventListener("readystatechange", callback);   
+
+        //send request
+        request.send();
+    </script>
+</body>
+</html>

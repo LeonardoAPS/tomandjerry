@@ -1,0 +1,614 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"classna",
+				"classname"
+			],
+			[
+				"le",
+				"length\t: unsigned long FileList"
+			],
+			[
+				"lastIndex",
+				"lastIndexOf\t( searchString: string, position?: int ): int String"
+			],
+			[
+				"settim",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"url",
+				"urlParams"
+			],
+			[
+				"json",
+				"JSON_stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"sel",
+				"selection"
+			],
+			[
+				"locat",
+				"location\t: Location Window"
+			],
+			[
+				"runt",
+				"runtimeTabId"
+			],
+			[
+				"run",
+				"runtimeTabId"
+			],
+			[
+				"oke",
+				"onkeypress\tAttr"
+			],
+			[
+				"geete",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"acti",
+				"activeRes"
+			],
+			[
+				"class",
+				"className\t: DOMString Element"
+			],
+			[
+				"Doc",
+				"document\t: Document Window"
+			],
+			[
+				"prezi",
+				"preziPlayer"
+			],
+			[
+				"prez",
+				"preziPlayer"
+			],
+			[
+				"spek",
+				"speakersService"
+			],
+			[
+				"guacamole",
+				"guacamoleService"
+			],
+			[
+				"get",
+				"getData\t( format: DOMString ): DOMString DataTransfer"
+			],
+			[
+				"eror",
+				"error_log"
+			],
+			[
+				"error",
+				"error_log"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"err",
+				"error_log"
+			],
+			[
+				"write",
+				"printer_write"
+			],
+			[
+				"speakers",
+				"speakersRoute"
+			],
+			[
+				"node",
+				"nodemon"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"align",
+				"text-align\tproperty"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"text",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"text-s",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"font",
+				"font-style\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"drupal",
+				"drupalvm"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"termin",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminus",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"termi",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"togg",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"term",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminu",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"jsontr",
+				"JsonTree: Show Tree"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"open",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: is",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 151.0,
+		"history":
+		[
+			"pwd",
+			"ls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/leonardo.dasilva/Sites/tomandjerry",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/chrome",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/static",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/static/css"
+	],
+	"file_history":
+	[
+		"/Users/leonardo.dasilva/Desktop/img.html",
+		"/Users/leonardo.dasilva/Drive/My Drive/Sales/Pre Sales/Project Dory/Pics v2/logos/logo_acquiadrop.svg",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/chrome/options.html",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/chrome/background.js",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/chrome/content.js",
+		"/Users/leonardo.dasilva/Sites/demo_framework_clone/docroot/content/dcd/node/0ce86709-a1ba-4aec-a17a-fb9a18dea56d.json",
+		"/Users/leonardo.dasilva/Downloads/Liberty Seguros-Sample-Contacts - Master Obio Template - top 15 Football Players.csv.csv",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/static/gslides.html",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/accepts/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/ansi-styles/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/array-flatten/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/async/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/balanced-match/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/body-parser/node_modules/http-errors/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/body-parser/node_modules/inherits/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/body-parser/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/brace-expansion/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/bytes/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/chalk/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/color-convert/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/color-name/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/concat-map/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/content-disposition/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/content-type/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/cookie-session/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/cookie-signature/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/cookie/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/cookies/node_modules/depd/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/cookies/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/debug/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/depd/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/destroy/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/ee-first/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/ejs/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/encodeurl/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/escape-html/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/escape-string-regexp/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/etag/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/express-validator/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/express/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/filelist/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/finalhandler/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/forwarded/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/fresh/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/has-flag/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/http-errors/node_modules/setprototypeof/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/http-errors/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/iconv-lite/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/inherits/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/ipaddr.js/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/jake/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/keygrip/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/lodash/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/media-typer/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/merge-descriptors/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/methods/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/mime-db/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/mime-types/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/mime/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/minimatch/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/ms/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/negotiator/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/on-finished/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/on-headers/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/parseurl/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/path-to-regexp/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/path/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/process/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/proxy-addr/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/qs/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/range-parser/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/raw-body/node_modules/http-errors/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/raw-body/node_modules/inherits/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/raw-body/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/safe-buffer/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/safer-buffer/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/send/node_modules/http-errors/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/send/node_modules/ms/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/send/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/serve-static/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/setprototypeof/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/statuses/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/supports-color/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/toidentifier/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/tsscmp/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/type-is/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/unpipe/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/util/node_modules/inherits/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/util/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/utils-merge/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/validator/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/node_modules/vary/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/server.js",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/package.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/package-lock.json",
+		"/Users/leonardo.dasilva/Sites/tomandjerry/chrome/manifest.json",
+		"/Users/leonardo.dasilva/Downloads/labattbrewinco.rtf",
+		"/Users/leonardo.dasilva/Downloads/absouthafrica.rtf",
+		"/Users/leonardo.dasilva/Sites/avocado/chrome/background.js",
+		"/Users/leonardo.dasilva/Sites/avocado/chrome/content.js",
+		"/Users/leonardo.dasilva/Sites/avocado/static/gslides.html",
+		"/Users/leonardo.dasilva/Sites/avocado/chrome/popup.html",
+		"/Users/leonardo.dasilva/Sites/avocado/static/css/style.css",
+		"/Users/leonardo.dasilva/Sites/avocado/chrome/popup.js",
+		"/Users/leonardo.dasilva/Sites/avocado/chrome/manifest.json",
+		"/Users/leonardo.dasilva/Sites/acsfdemo5/docroot/sites/default/settings.php",
+		"/Users/leonardo.dasilva/Sites/mylightning/modules/contrib/component/modules/component_example/component_example.info.yml",
+		"/Users/leonardo.dasilva/Sites/mylightning/composer.json",
+		"/Users/leonardo.dasilva/Sites/mylightning/modules/contrib/component/templates/component-html.html.twig",
+		"/Users/leonardo.dasilva/Sites/avocado/server.js",
+		"/Users/leonardo.dasilva/Sites/avocado/static/prezi.html",
+		"/Users/leonardo.dasilva/Sites/avocado/services/GuacamoleService.js",
+		"/Users/leonardo.dasilva/Sites/avocado/static/myModule.html",
+		"/Users/leonardo.dasilva/Sites/avocado/modules/module.js",
+		"/Users/leonardo.dasilva/Downloads/modules/module.js",
+		"/Users/leonardo.dasilva/Sites/avocado/modules/Module.js",
+		"/Users/leonardo.dasilva/Sites/avocado/static/js/prezi_player.js",
+		"/Users/leonardo.dasilva/Sites/avocado/static/guacamole.html",
+		"/Users/leonardo.dasilva/Sites/avocado/routes/guacamole.js",
+		"/Users/leonardo.dasilva/Sites/avocado/views/layout/partials/scripts.ejs",
+		"/Users/leonardo.dasilva/Sites/avocado/package.json",
+		"/Users/leonardo.dasilva/Sites/avocado/routes/index.js",
+		"/Users/leonardo.dasilva/Sites/avocado/views/layout/index.ejs",
+		"/Users/leonardo.dasilva/Sites/avocado/views/pages/guacamole.ejs",
+		"/Users/leonardo.dasilva/Sites/avocado/static/guacamole-test.html",
+		"/Users/leonardo.dasilva/Sites/nodejs/views/layout/index.ejs",
+		"/Users/leonardo.dasilva/Sites/avocado/views/layout/partials/navigation.ejs",
+		"/Users/leonardo.dasilva/Sites/nodejs/server.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/leonardo.dasilva/Sites/tomandjerry"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tab",
+			"'element'",
+			"ID:",
+			"translation_source",
+			"firstElementWithClass",
+			"coh-instance-2552741922",
+			"firstElementWithClass",
+			"findElement",
+			"firstElementWithClass",
+			"firstElementEx",
+			"firstElementWithClass",
+			"firstele",
+			"client",
+			"/Users/leonardo.dasilva/Sites/avocado",
+			"avocado",
+			"toman",
+			"avoca",
+			"avocado"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/Users/leonardo.dasilva/Sites/tomandjerry"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 161.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 139.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 108.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 108.0
+	},
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tomandjerry.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pre",
+				"static/prezi.html"
+			],
+			[
+				"getfile",
+				"~/Sites/myvia/docroot/modules/contrib/feeds/src/Feeds/Target/File.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 120.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
